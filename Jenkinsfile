@@ -2,7 +2,7 @@ pipeline {
     agent { node { label 'slave' }}
     environment {
         //be sure to replace "willbla" with your own Docker Hub username
-        DOCKER_IMAGE_NAME = "willbla/train-schedule"
+        DOCKER_IMAGE_NAME = "premkumar0450/train-schedule"
     }
     stages {
         stage('Build') {
